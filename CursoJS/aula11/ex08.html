@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="ex08.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+
+<body>
+    <h1 id="Titulo">Sistema de Mutas</h1>
+    <p id="Paragrafo1"> Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+
+        <input id="InputVerif" type="button" value="Verificar" onclick="Calcular()"></p>
+
+    <div id="Resultado">
+
+
+
+    </div>
+
+    <script>
+
+        function Calcular() {
+            var velocidadeTXT = window.document.getElementById("txtvel")
+            var velocidadeNum = Number(velocidadeTXT.value)
+            var Resultado = window.document.getElementById("Resultado")
+
+            if (velocidadeNum > 60) {
+                Resultado.innerHTML = "<strong> Multado </strong>"
+                Resultado.style.backgroundColor =  "rgba(220, 20, 60, 0.534)";
+            } else {
+
+                Resultado.innerHTML = "<strong> Limpo </strong> "
+                Resultado.style.backgroundColor = "cornflowerblue";
+            }
+
+
+        }
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

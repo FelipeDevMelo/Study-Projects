@@ -1,0 +1,28 @@
+#Background{
+    
+    margin-left: 5px;
+   padding: 100px;
+   padding-top: 10px;
+   background-color: black;
+   width: 400px;
+   height: 200px;
+   background-image: url("backgorund.png");
+}
+ul{
+    position: absolute;
+ list-style-type: none;
+ top: 100px;
+ left: 20px;
+}
+h1{
+text-align: left;
+position: absolute;
+left: 20px;;
+
+}
+body{
+    font-size: 18pt;
+    background-color: black;
+   font-family: 'Courier New', Courier, monospace;
+}
+

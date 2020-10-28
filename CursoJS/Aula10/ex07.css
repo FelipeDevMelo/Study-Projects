@@ -1,0 +1,13 @@
+div#div1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    margin-top: 20px;
+}
+input{
+    font-size: 16px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(196, 118, 105);
+    
+}

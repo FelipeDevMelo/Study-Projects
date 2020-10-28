@@ -1,0 +1,45 @@
+p#paragrafo1{
+    color: cornsilk;
+   background-color: rgb(149, 105, 190); 
+   width: 200px;
+   border-radius: 10px;
+}
+#container{
+    background-color: darkgoldenrod;
+    border: 5px black;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    border-style: outset;
+}
+h1{
+    background-color: saddlebrown;
+    color:wheat;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    margin-left: 200px;
+    border-style: dashed;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Comic Sans MS";
+
+    
+}
+body{
+    background-color: wheat;
+}
+ul{
+    list-style-type: circle;
+    border: 1px solid;
+}
+#conteudo{
+
+    background-color:rgb(202, 227, 231);
+    margin-top: 30 px;
+    
+    border-radius: 20px;
+    padding: 20px;
+
+}

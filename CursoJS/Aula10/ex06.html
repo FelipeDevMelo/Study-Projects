@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="ex06.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventod DOM</title>
+</head>
+
+<body>
+    <div id="area" >
+        Interaja...
+    </div>
+
+
+    <script>
+        var area = window.document.getElementById("area")
+        area.addEventListener("click" , Clicou)
+        area.addEventListener("mouseenter" , Entrou)
+        area.addEventListener("mouseout" , Saiu)
+        function Clicou() {
+
+
+            area.innerText = "fale"
+            area.style.backgroundColor = "Red"
+
+        }
+        function Entrou() {
+
+
+            area.innerText = "entrou"
+            area.style.backgroundColor = "Blue"
+
+        }
+        function Saiu() {
+
+
+            area.innerText = "saiu"
+            area.style.backgroundColor = "Green"
+
+        }
+
+
+    </script>
+</body>
+
+</html>
