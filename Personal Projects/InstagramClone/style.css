@@ -1,0 +1,37 @@
+.instagram-phone {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.instagram-phone img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.instagram-continue{
+    width: 200px;
+    height: 120px;
+    float: right;
+}
+.instagram-logo{
+    width: 100%;
+}
+.group{
+    
+    width: 100%;
+    height: 120px;
+}
+
+.profile-photo{
+    width: 50%;
+    height: auto;
+
+}
+.perfil{
+    width: 100%;
+    height: auto;
+
+}
