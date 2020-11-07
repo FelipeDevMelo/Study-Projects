@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+    background-color: rgb(182, 209, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    margin-left: 200px;
+    width: 300px;
+    
+}
+
+#resultado{
+    margin-left: 15px;
+    text-align: justify;
+}
