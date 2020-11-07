@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Sorteador</title>
+
+    <script>
+        let pessoas = ["igor", "jose" , "marcos" , "pamela" , "joana"]
+
+        function Sortear(){
+                let np = pessoas.length;
+                let ns = Math.floor(Math.random() * np)
+                document.getElementById("h1").innerHTML = pessoas[ns];
+
+
+        }
+
+    </script>
+
+</head>
+<body>
+    <h1 id = "h1"></h1>
+    <input type="button" value="Sortear" onclick="Sortear()">
+</body>
+</html>
