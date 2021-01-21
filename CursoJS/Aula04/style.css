@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(94, 43, 177);
+    padding: 50px;
+}
+h1{
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    box-shadow: black 2px 2px 5px;
+    position: relative;
+    text-align: center;
+}
