@@ -1,6 +1,10 @@
 #title {
   background-color: #dd4c68;
 }
+
+body{
+  font-family: "Montserrat";
+}
 h1 {
   font-family: "Montserrat";
   font-size: 3rem;
@@ -10,10 +14,22 @@ h1 {
 }
 .container-fluid{
     padding: 3% 15%;
+    height: 90%;
 }
 #tindog{
-    font-family: "Montserrat";
+  font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     line-height: 1.5;
-    font-weight: 900;
+    font-weight: 110;
 }
+a{
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  margin-left: 40px;
+}
+#iphone{
+ 
+  transform: rotate(20deg);
+  width: 60%;
+}
+
